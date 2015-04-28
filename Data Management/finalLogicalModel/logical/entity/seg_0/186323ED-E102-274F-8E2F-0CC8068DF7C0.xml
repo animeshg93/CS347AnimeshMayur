@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="186323ED-E102-274F-8E2F-0CC8068DF7C0" name="NL Notif List">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>F55D2632-1494-0401-2C11-BCC1B92DD436</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="member id" id="CE08F9EC-6C50-0BAC-2C1C-CD452BF18B00">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>1DEFB993-D0D5-8F2A-6F3A-2FB6282C624B</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7C2B9747-9B5B-BE19-ED62-AA52F02C2703</domain>
+</Attribute>
+<Attribute name="name" id="EC64838E-EADD-C2BD-5E31-64E90FEC7C27">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>0917F84A-611E-E556-937D-DFD2AF608837</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A01AA64B-C2BF-B7C7-1431-44D44B7A8B7C</domain>
+</Attribute>
+<Attribute name="description" id="6206A7DB-F177-D640-FD54-47514D00ECDD">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>5D09D73B-AE33-26CD-0411-8C6FF24ABF40</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A01AA64B-C2BF-B7C7-1431-44D44B7A8B7C</domain>
+</Attribute>
+<Attribute name="ownership division code" id="2C5B484F-486D-8523-086F-8EF0CA2EADBF">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>34EB835C-D107-2926-8546-B332839D3F4F</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3A711ED9-AC12-0C89-E378-B7F7B83C6553</domain>
+</Attribute>
+<Attribute name="status eff date" id="F54F3BE8-4E26-BB23-B97E-38D55259D7AA">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>4C42E868-D66B-22EC-B66B-F389EB66762B</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D4D333E1-320E-5157-CBF4-9B9BC98E1BA7</domain>
+</Attribute>
+<Attribute name="status" id="1C6EF8B5-3CE5-E9C6-4894-EA37F0A16648">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>8CFC055A-71F6-2E7A-46A4-2D55085FDBCB</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D6258485-3E28-156A-B845-744EB3196BB1</domain>
+</Attribute>
+<Attribute name="external view name" id="E253F5C7-9B3E-EC80-8208-668FF1BFACF3">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>40A90D7E-9B5C-4D2A-31C5-044923F622DD</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A01AA64B-C2BF-B7C7-1431-44D44B7A8B7C</domain>
+</Attribute>
+<Attribute name="type" id="BD3BF84D-4A8C-B204-46A6-DF3B5D934982">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>7F4ED104-0941-B33E-BA27-B93843F1B6FB</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9C408ABE-5841-0878-42FD-F9F8DBD837BF</domain>
+</Attribute>
+<Attribute name="lab" id="1F68E491-15EA-A253-3F17-03F56F57BF63">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>0FE69AA2-2B71-AD11-7641-A6FC86FE496E</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F9AE04E-EFB5-FFE8-A28A-1BA406AE25FB</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6700416-CF21-9FE7-1850-52E97745C1C6" name="NL Notif List PK">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>A9B1A2EE-8139-175A-3B03-4B7CA095034B</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="false"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE08F9EC-6C50-0BAC-2C1C-CD452BF18B00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

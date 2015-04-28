@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5FAFD6F-390B-D0CC-AB86-54A141E53E46" name="NL_List_Mem">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>6E36878E-1B30-901B-6866-03DD73806054</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NL_Notif_List_member_id" id="267E6AFA-21FD-A0FD-9DB9-CC83AA3CDBDC">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>DFACE9CA-9B94-FD51-2910-BDD128654CDA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7C2B9747-9B5B-BE19-ED62-AA52F02C2703</domain>
+<delegate>1DEFB993-D0D5-8F2A-6F3A-2FB6282C624B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25E58A03-2E23-974A-737D-EEB6F22F9BCF" referredColumn="1DEFB993-D0D5-8F2A-6F3A-2FB6282C624B"/>
+</associations>
+</Column>
+<Column name="NL_Notif_List_member_id1" id="3F7183DE-52A9-17E2-A56F-2A82EAAF8DCE">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>BFF4571C-1816-A87B-8B69-7340F00F3E64</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7C2B9747-9B5B-BE19-ED62-AA52F02C2703</domain>
+<delegate>1DEFB993-D0D5-8F2A-6F3A-2FB6282C624B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E25965A7-BD90-495B-9E5B-54E403832A03" referredColumn="1DEFB993-D0D5-8F2A-6F3A-2FB6282C624B"/>
+</associations>
+</Column>
+<Column name="mem_id" id="048E4566-6197-1F25-E905-96495F0EEBC1">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:28:02 UTC</createdTime>
+<generatorID>6719A1A8-1EF6-1D05-8D49-770CAFD71F1B</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93537E07-E3CA-1AD6-3CB5-A0CD14243609" name="NL_List_Mem_PK">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:28:02 UTC</createdTime>
+<generatorID>B77F3241-D891-4075-1051-281C8C95FEA3</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="048E4566-6197-1F25-E905-96495F0EEBC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F83002E-F668-3C82-DC5C-9C4E4DFD4831" name="NL_List_Mem_NL_Notif_List_FK">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:24 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="267E6AFA-21FD-A0FD-9DB9-CC83AA3CDBDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2A34A8F-3219-0C67-378B-B2FD7C466165" name="NL_List_Mem_NL_Notif_List_FKv1">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:24 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F7183DE-52A9-17E2-A56F-2A82EAAF8DCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

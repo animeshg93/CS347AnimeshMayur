@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F55D2632-1494-0401-2C11-BCC1B92DD436" name="NL_Notif_List">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>EBA912B7-6B3D-B9FB-E303-C2F59BFF53A4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_id" id="1DEFB993-D0D5-8F2A-6F3A-2FB6282C624B">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>EFE7B696-A492-11DE-65E6-2C784A678AE9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7C2B9747-9B5B-BE19-ED62-AA52F02C2703</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="0917F84A-611E-E556-937D-DFD2AF608837">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>199B0B50-FFCA-9B31-B081-ABA318E9FFF4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A01AA64B-C2BF-B7C7-1431-44D44B7A8B7C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="5D09D73B-AE33-26CD-0411-8C6FF24ABF40">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>08F187EB-9C64-6CA0-71C6-20EBB46C4DC7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A01AA64B-C2BF-B7C7-1431-44D44B7A8B7C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ownership_division_code" id="34EB835C-D107-2926-8546-B332839D3F4F">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>86C69774-DCFE-96B9-77E1-5BE6C3A8EF7B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3A711ED9-AC12-0C89-E378-B7F7B83C6553</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_eff_date" id="4C42E868-D66B-22EC-B66B-F389EB66762B">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>68722AA9-37E7-70AE-0EE0-7E378C089029</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D4D333E1-320E-5157-CBF4-9B9BC98E1BA7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="8CFC055A-71F6-2E7A-46A4-2D55085FDBCB">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>8EA0814D-5DF0-E78D-DE18-BB25C53B6385</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D6258485-3E28-156A-B845-744EB3196BB1</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="external_view_name" id="40A90D7E-9B5C-4D2A-31C5-044923F622DD">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>11B567CB-757E-6401-113C-F2969C493445</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A01AA64B-C2BF-B7C7-1431-44D44B7A8B7C</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="7F4ED104-0941-B33E-BA27-B93843F1B6FB">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>A4111BC8-943B-BE5C-1470-5240A9DF56ED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9C408ABE-5841-0878-42FD-F9F8DBD837BF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lab" id="0FE69AA2-2B71-AD11-7641-A6FC86FE496E">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>4902CA35-C279-93D3-BD86-37DCEA2D3B7C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F9AE04E-EFB5-FFE8-A28A-1BA406AE25FB</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9B1A2EE-8139-175A-3B03-4B7CA095034B" name="NL_Notif_List_PK">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>D543E967-24AC-CDA3-042F-1310944E7186</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DEFB993-D0D5-8F2A-6F3A-2FB6282C624B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

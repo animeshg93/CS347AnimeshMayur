@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E25965A7-BD90-495B-9E5B-54E403832A03" name="NL_List_Mem_NL_Notif_List_FKv1">
+<sourceDDLFile>newtakeagain.ddl</sourceDDLFile>
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:24 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<importedID>8F070F5A-4FC0-84B7-1338-A9E9201FCCDD</importedID>
+<containerWithKeyObject>F5FAFD6F-390B-D0CC-AB86-54A141E53E46</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B2A34A8F-3219-0C67-378B-B2FD7C466165</localFKIndex>
+<keyObject>A9B1A2EE-8139-175A-3B03-4B7CA095034B</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

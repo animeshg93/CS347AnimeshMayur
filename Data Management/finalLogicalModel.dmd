@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="finalLogicalModel" id="AC8B1884-61DC-A4C1-2E2E-CC4BF5FD57F3" version="3.5">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:21:57 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AC8B1884-61DC-A4C1-2E2E-CC4BF5FD57F3</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1E53F44D-AFA2-E685-860A-44AF12ADD8BB">
+<designStoragePath>C:\newtakeagain</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

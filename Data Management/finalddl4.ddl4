@@ -1,0 +1,66 @@
+DROP VIEW N_Document;
+DROP VIEW N_Notification_List;
+DROP VIEW N_Employees;
+
+CREATE OR REPLACE VIEW N_Document AS
+SELECT NL_Document.document_id,
+NL_Document.filename,
+NL_Document.file_mimetype,
+NL_Document.file_charset,
+NL_Document.file_data,
+NL_Document.file_comments,
+NL_Document.tags,
+NL_Document.NL_Notif_List_member_id
+FROM NL_Document;
+
+CREATE OR REPLACE VIEW N_Notification_List AS
+SELECT NL_Notif_List.member_id,
+NL_Notif_List.name,
+NL_Notif_List.description,
+NL_Notif_List.ownership_division_code,
+NL_Notif_List.status_eff_date,
+NL_Notif_List.status,
+NL_Notif_List.external_view_name,
+NL_Notif_List.type,
+NL_Notif_List.lab
+FROM NL_Notif_List;
+
+CREATE OR REPLACE VIEW N_Employees AS
+SELECT NL_Employees.user_id,
+NL_Employees.isAdmin
+FROM NL_Employees;
+
+
+create or replace trigger NL_Notification_update
+    before update on NL_Notif_List
+    for each row
+begin
+    :new.status_eff_date := SYSDATE;
+end;
+/
+
+create or replace trigger NL_Notification_insert
+	instead of insert on N_Notif_List
+	for each row
+begin
+	insert into NL_Notif_list (
+		name,
+		description,
+		ownership_division_code,
+		status_eff_date,
+		status,
+		external_view_name,
+		type,
+		lab )
+	values (
+		:new.name,
+		:new.description,
+		:new.ownership_division_code,
+		SYSDATE,
+		'A',
+		:new.external_view_name,
+		:new.type,
+		:new.lab
+		);
+end NL_Notif_insert;
+/

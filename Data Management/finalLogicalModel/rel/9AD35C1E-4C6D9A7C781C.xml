@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="newtakeagain" id="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" mainViewID="750E9E3B-4E46-8093-2BAF-99723F36CE7B">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:03 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>newtakeagain.ddl</fileName>
+<pathName>C:\Users\Mayur\Google Drive\UT- Austin\1 - Sophomore Year\Sem 2\CS 347 - Data Management\Project\Final project\cs347final-master</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA180B34-2C81-9D81-A07D-48058E509B8B" name="NL Emp Mem">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>BC97D544-39E5-7359-DBAF-6BB8B0642DD5</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NL Employees user id" id="446FC904-50C6-DD14-D442-2E4CF67FF637">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>1E8F8491-70AC-73BA-32F1-69D0F1F1825C</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2FC2C703-D128-B02C-2DD2-8F15E7C1906F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7C2B9747-9B5B-BE19-ED62-AA52F02C2703</domain>
+</Attribute>
+<Attribute name="NL Notif List member id" id="AF3AC554-EB13-A03E-A008-B92C0A1C1C77">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>D81215B9-7369-C0F7-5B34-43A5A6F2B941</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE08F9EC-6C50-0BAC-2C1C-CD452BF18B00</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7C2B9747-9B5B-BE19-ED62-AA52F02C2703</domain>
+</Attribute>
+<Attribute name="mem_id" id="F75D59DC-D370-415B-E162-29AEE77D3DD9">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:27:13 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8529DA87-672E-35E7-3543-57B35EBF4D02" name="{entity} PK">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:27:35 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="false"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F75D59DC-D370-415B-E162-29AEE77D3DD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

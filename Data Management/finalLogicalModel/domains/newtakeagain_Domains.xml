@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="newtakeagain_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4" id="3A711ED9-AC12-0C89-E378-B7F7B83C6553">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="3F9AE04E-EFB5-FFE8-A28A-1BA406AE25FB">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000 BYTE" id="5A45705D-97B6-1907-68B4-03F58072C98F">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4000 BYTE</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="7C2B9747-9B5B-BE19-ED62-AA52F02C2703">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="9C408ABE-5841-0878-42FD-F9F8DBD837BF">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000" id="A01AA64B-C2BF-B7C7-1431-44D44B7A8B7C">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4000</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="BLOB_0_0_0" id="A6775AA3-1321-6C51-D26D-5B120455B1E2">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="D4D333E1-320E-5157-CBF4-9B9BC98E1BA7">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1" id="D6258485-3E28-156A-B845-744EB3196BB1">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_5" id="F9F9035C-D1E6-0937-A205-FBA6311E00FB">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_512" id="FF75D8D5-8CAB-6660-EFBC-9D1EA5269AE3">
+         <createdBy>Mayur</createdBy>
+         <createdTime>2015-04-28 00:24:23 UTC</createdTime>
+         <ownerDesignName>finalLogicalModel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>512</dataTypeSize>
+         <fileName>newtakeagain_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NL_Document_NL_Notif_List_FK" directorySegmentName="seg_0" id="B0E0863B-9649-6C90-316D-FCF012899591">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>98698B69-AB47-9C66-3121-FC45CEC370A6</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<sourcePk>D6700416-CF21-9FE7-1850-52E97745C1C6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>186323ED-E102-274F-8E2F-0CC8068DF7C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>106A39FA-7918-7784-B86C-0B391AA2F311</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

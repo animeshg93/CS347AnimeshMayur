@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="106A39FA-7918-7784-B86C-0B391AA2F311" name="NL Document" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FA180B34-2C81-9D81-A07D-48058E509B8B" name="NL Emp Mem" seqName="seg_0"/>
+   <object objectType="Entity" objectID="19F64548-A7BA-D0DD-ED39-347671195BAA" name="NL Employees" seqName="seg_0"/>
+   <object objectType="Entity" objectID="521357BF-34DD-CC8E-2308-999CC1D44536" name="NL List Mem" seqName="seg_0"/>
+   <object objectType="Entity" objectID="186323ED-E102-274F-8E2F-0CC8068DF7C0" name="NL Notif List" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B0E0863B-9649-6C90-316D-FCF012899591" name="NL_Document_NL_Notif_List_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1E8F8491-70AC-73BA-32F1-69D0F1F1825C" name="NL_Emp_Mem_NL_Employees_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D81215B9-7369-C0F7-5B34-43A5A6F2B941" name="NL_Emp_Mem_NL_Notif_List_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0DE1A1FC-9967-0971-14EF-631BE1F0F57C" name="NL_List_Mem_NL_Notif_List_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A4838111-813C-4823-E19E-797A7AD7ADC6" name="NL_List_Mem_NL_Notif_List_FKv1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

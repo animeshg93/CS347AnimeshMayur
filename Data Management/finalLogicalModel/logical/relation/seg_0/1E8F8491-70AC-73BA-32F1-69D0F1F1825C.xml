@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NL_Emp_Mem_NL_Employees_FK" directorySegmentName="seg_0" id="1E8F8491-70AC-73BA-32F1-69D0F1F1825C">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:26:25 UTC</createdTime>
+<generatorID>097A07E0-46CA-A7C9-BD9C-B5145C42135A</generatorID>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<engineerTo>
+<item key="9AD35C1E-52C4-B195-B5C7-4C6D9A7C781C" value="true"/>
+<item key="D48A0E3C-C384-F33C-1D51-E8F9D6644CDF" value="true"/>
+</engineerTo>
+<sourcePk>A63DF6FF-F481-F926-2AC4-6BAC8C71CE21</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19F64548-A7BA-D0DD-ED39-347671195BAA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA180B34-2C81-9D81-A07D-48058E509B8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

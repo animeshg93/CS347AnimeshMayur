@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NL_Document" directorySegmentName="seg_0" id="EDD51914-C61C-1616-A51E-FE0FC45725E9">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NL_Notif_List_member_id" id="37685877-F155-AA1A-8ACA-8E810442D252">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="file_data" id="7D29AA62-DFCE-3EE7-02E0-A52F995DF726">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="filename" id="881720E3-2838-B3B9-73DE-6213D50A098F">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="file_charset" id="A84B0C78-CD51-90CE-91DA-3980A15A7BA4">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="document_id" id="AF6BF60E-972D-FD78-6F87-F1E5DD348268">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="file_mimetype" id="B3B6C78E-0DFF-8489-B821-DA43C19F823B">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="file_comments" id="EAF0535F-E559-5A0E-AD95-BE4217A4F6F7">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tags" id="EEE68D52-2720-5D9A-8511-A6C704F1B3F0">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NL_Document_NL_Notif_List_FK" id="1F862C27-1DD6-659E-5935-B852627EB396">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NL_Document_PK" id="8EF12B5B-1C6A-A713-325E-404D458BE6F6">
+<createdBy>Mayur</createdBy>
+<createdTime>2015-04-28 00:24:23 UTC</createdTime>
+<ownerDesignName>finalLogicalModel</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
